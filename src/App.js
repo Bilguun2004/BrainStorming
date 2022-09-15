@@ -1,5 +1,4 @@
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+import { Home } from "./pages/Home";
 import { sendRequest } from "./utils/Api";
 
 function App() {
@@ -9,8 +8,7 @@ function App() {
   // };
   // getData();
   return <>
-  <Navbar/>
-  <Footer/>
+  <Home/>
   </> ;
 }
 
