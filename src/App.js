@@ -1,3 +1,5 @@
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 import { sendRequest } from "./utils/Api";
 
 function App() {
@@ -6,7 +8,10 @@ function App() {
   //   console.log(users);
   // };
   // getData();
-  return <>Hello World</>;
+  return <>
+  <Navbar/>
+  <Footer/>
+  </> ;
 }
 
 export default App;
