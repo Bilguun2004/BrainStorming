@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from "react";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
@@ -123,6 +124,8 @@ function Blogs() {
 
 export default Blogs;
 =======
+=======
+>>>>>>> 8d14e72 (Navigation App.js)
 const Blogs = () =>{
     return(
         <div>
@@ -130,5 +133,9 @@ const Blogs = () =>{
         </div>
     )
 }
+<<<<<<< HEAD
+export default Blogs
+>>>>>>> 8d14e72 (Navigation App.js)
+=======
 export default Blogs
 >>>>>>> 8d14e72 (Navigation App.js)
