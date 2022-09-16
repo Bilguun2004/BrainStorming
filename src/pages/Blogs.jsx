@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
@@ -121,3 +122,13 @@ function Blogs() {
 }
 
 export default Blogs;
+=======
+const Blogs = () =>{
+    return(
+        <div>
+            Blogs page
+        </div>
+    )
+}
+export default Blogs
+>>>>>>> 8d14e72 (Navigation App.js)
