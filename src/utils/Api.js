@@ -1,7 +1,6 @@
 import axios from "axios";
 
 export const sendRequest = async (url, method, data) => {
-  console.log(process.env.REACT_APP_APP_ID);
   const request_url = process.env.REACT_APP_BASE_URL + url;
 
   const response = await axios({
@@ -14,5 +13,5 @@ export const sendRequest = async (url, method, data) => {
     data,
   });
 
-  console.log(response);
+  return response.data;
 };

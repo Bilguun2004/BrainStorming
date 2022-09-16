@@ -1,3 +1,4 @@
+import Blog from "./pages/Blog";
 import { sendRequest } from "./utils/Api";
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
   //   console.log(users);
   // };
   // getData();
-  return <>Hello World</>;
+  return <Blog />;
 }
 
 export default App;
