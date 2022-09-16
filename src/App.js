@@ -1,4 +1,4 @@
-import Blog from "./pages/Blog";
+import { Home } from "./pages/Home";
 import { sendRequest } from "./utils/Api";
 
 function App() {
@@ -7,7 +7,9 @@ function App() {
   //   console.log(users);
   // };
   // getData();
-  return <Blog />;
+  return <>
+  <Home/>
+  </> ;
 }
 
 export default App;

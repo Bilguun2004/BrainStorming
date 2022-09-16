@@ -1,0 +1,104 @@
+body{
+overflow-x: hidden;
+}
+.Home-container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.Home-top{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../assets//home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.te{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+.Home-top-child{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.Home-top-text-container{
+    width: 35%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Home-top-big-text{
+    color: white;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.Home-top-small-text{
+    width: 60%;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+.Home-top-input-container{
+    width: 100%;
+    height: auto;
+    gap: 10px;
+    display: flex;
+
+}
+.Home-top-input{
+    height: 40px;
+    width: 50%;
+    background-color: white;
+    border: 0;
+    border-radius: 4px;
+}
+.Home-top-input-button{
+    height: 40px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color:#0BBEF2;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.Home-top-input-button:hover{
+    cursor: pointer;
+}
+.Home-2{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0BBEF2;
+}
+.Home-3{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0bf245;
+}
+.Home-4{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0f0bf2;
+}
+.Home-5{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 20px;
+    white-space: nowrap;
+}
