@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-const Blog = () =>{
-    return(
-        <div>
-            Blog page
-        </div>
-    )
-}
-export default Blog
-=======
 import { Box, Divider, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { Author, BlogHeader, CommentBox } from "../components/Blog/index";
@@ -80,4 +70,3 @@ const Blog = () => {
   );
 };
 export default Blog;
->>>>>>> 37aa28c (implemented blog page)
