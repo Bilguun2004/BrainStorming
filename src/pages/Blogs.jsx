@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
@@ -7,7 +6,7 @@ import PostCard from "../components/PostCard";
 import uploaderImage from "../assets/images/uploader.webp";
 function Blogs() {
   return (
-    <Box backgroundColor="#F5F5F5" >
+    <Box backgroundColor="#F5F5F5">
       <Grid
         sx={{ maxWidth: "1350px" }}
         container
@@ -122,13 +121,3 @@ function Blogs() {
 }
 
 export default Blogs;
-=======
-const Blogs = () =>{
-    return(
-        <div>
-            Blogs page
-        </div>
-    )
-}
-export default Blogs
->>>>>>> 8d14e72 (Navigation App.js)
