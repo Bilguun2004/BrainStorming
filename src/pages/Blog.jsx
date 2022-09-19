@@ -2,6 +2,8 @@ import { Box, Divider, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { Author, BlogHeader, CommentBox } from "../components/Blog/index";
 import { sendRequest } from "../utils/Api";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const getData = async () => {
   const users = await sendRequest("post/60d21b4667d0d8992e610c85", "GET");
@@ -55,6 +57,8 @@ const useStyles = makeStyles({
 const Blog = () => {
   const classes = useStyles();
   return (
+    <>
+    <Navbar/>
     <Box className={classes.container}>
       <Box className={classes.blog}>
         <BlogHeader blog={blog} />
@@ -67,6 +71,9 @@ const Blog = () => {
         <CommentBox />
       </Box>
     </Box>
+    <Footer/>
+    </>
+    
   );
 };
 export default Blog;
