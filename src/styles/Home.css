@@ -85,7 +85,49 @@ overflow-x: hidden;
 .Home-3{
     height: 100vh;
     width: 100vw;
-    background-color: #0bf245;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    flex-direction: row;
+}
+.HomeRight{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    flex-direction: row-reverse;
+}
+.Home-3-child{
+    height: 60%;
+    width: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../assets/images/Home2.svg');
+
+}
+.Home-3-child-2{
+    height: 60%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.Home-3-big-text{
+    font-size: 30px;
+    font-weight: 700;
+    width: 70%;
+}
+.Home-3-small-text{
+    font-size: 17px;
+    font-weight: 400;
+    width: 100%;
+}
+.Home-3-learnmore{
+    color: #4DA0FD;
 }
 .Home-4{
     height: 100vh;
