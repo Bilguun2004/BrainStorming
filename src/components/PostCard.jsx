@@ -8,17 +8,18 @@ import Typography from "@mui/material/Typography";
 
 const PostCard = (props) => {
   return (
-    <Box width="370px" >
+    <Box width="370px">
       <Card sx={{ borderRadius: "8%" }}>
         <CardMedia component="img" height="150" image={props.image} />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            {props.title}
-          </Typography>
-          <Typography variant="body2" color="text.Secondary">
-            {props.text}
-          </Typography>
-
+        <CardContent sx={{ mx: "20px" }}>
+          <Box>
+            <Typography gutterBottom variant="h5" component="div">
+              {props.title}
+            </Typography>
+            <Typography variant="body2" color="text.Secondary">
+              {props.text}
+            </Typography>
+          </Box>
           <Box display="flex">
             <CardMedia
               sx={{ width: 45, borderRadius: "50%" }}
@@ -27,9 +28,11 @@ const PostCard = (props) => {
               // width="45"
               image={props.uploaderImage}
             />
-            <Typography variant="caption">{props.uploaderName}</Typography>
-            <Divider orientation="vertical" flexItem variant="middle" />
-            <Typography variant="caption">{props.uploadedDate}</Typography>
+            <Box sx={{ display: "flex", alignItems: "center", p: 0 }}>
+              <Typography variant="caption">{props.uploaderName}</Typography>
+              <Divider orientation="vertical" flexItem variant="middle" />
+              <Typography variant="caption">{props.uploadedDate}</Typography>
+            </Box>
           </Box>
         </CardContent>
       </Card>
